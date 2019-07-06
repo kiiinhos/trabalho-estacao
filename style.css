@@ -1,53 +1,30 @@
-body {
-  background-color: aqua;
+* {
   margin: 0;
-  display: grid;
-  grid-template-areas:
-    "nav nav nav nav"
-    "header  header header header"
-    "section section section section"
-    "segunda  segunda segunda segunda"
-    "div div div div"
-    "footer footer footer footer";
-  grid-template-rows: 2vh 83vh 10vh 10vh;
-  grid-template-columns: 20vw 30vw 24vw 24.5vw;
-
-  flex-basis: 0;
-}
-nav {
-  grid-area: nav;
-  background-color: black;
 }
 header {
-  grid-area: header;
-  background-color: blue;
-}
-.banner {
-  display: flex;
-  justify-content: space-around;
-
-  width: 60px;
-}
-section {
-  grid-area: section;
-  background-color: red;
-}
-segunda {
-  grid-area: segunda;
-  background-color: yellow;
-}
-div {
-  grid-area: div;
-  background-color: orange;
-}
-footer {
-  grid-area: footer;
-}
-header,
-section,
-segunda,
-div {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(img/banner.png);
+  background-size: cover;
+}
+header div {
+  width: 50%;
+}
+header div a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.7;
+  display: inline-block;
+}
+header div:nth-child(2) {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.mao {
+  width: 428px;
+  height: 525px;
 }
