@@ -262,3 +262,65 @@ ul {
   width: 50px;
   height: 50px;
 }
+.video {
+  padding: 70px;
+  background-color: lightgray;
+  height: 400px;
+  display:: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video h2 {
+  padding: 20px;
+}
+
+.video p {
+  padding: 20px;
+  font-family: 'robuto' 
+}
+
+.narutoxsasuke {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 600px;
+  padding-bottom: 500px;
+  border-radius: 500px;
+  
+} 
+
+
+.getnotified {
+  height: 0;
+}
+
+.campo {
+  margin-left: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 22px;
+  border-right: 0;
+}
+
+button {
+  background-color: lightgreen;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 40px;
+  color: white;
+  font-weight: bolder;
+  
+  
+}
+
+.cadastro {
+  display: flex;
+  align-items: flex-start;
+}
