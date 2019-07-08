@@ -9,7 +9,7 @@ body {
 header {
   grid-area: header;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-image: url(img/banner.png);
   background-size: cover;
@@ -22,25 +22,58 @@ header div a {
   padding: 20px;
   border-radius: 50%;
 }
+header h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: normal;
+  font-size: 60px;
+}
+header p {
+  font-family: "Roboto", sans-serif;
+  font-size: 22pt;
+  padding-top: 50px;
+}
+.top {
+  background-color: #2dcc70;
+  height: 10px;
+}
+.ponto {
+  color: #2dcc70;
+}
 
 .mao {
-  width: 428px;
+  width: 57vh;
   height: 525px;
-
+  padding-right: 90px;
   align-items: flex-end;
+  padding-top: 150px;
 }
 .miniaturas {
   justify-content: space-around;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 300px;
 }
+.mini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 35px;
+  padding-bottom: 200px;
+}
+.mini a:hover {
+  background-color: #2cbf60;
+}
+
 .texto {
   color: white;
-  padding: 0;
-  margin: 0;
+  padding-left: 350px;
+
   text-align: justify;
+  padding-top: 100px;
 }
-.notify {
-  color: white;
-}
+
 .img2 {
   justify-content: space-around;
   display: flex;
@@ -62,6 +95,15 @@ header div a {
   width: 35px;
   height: 35px;
 }
+.icone:hover {
+  background-color: rgb(62, 62, 62);
+}
+.jpg:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
 .travis {
   display: flex;
   align-items: center;
