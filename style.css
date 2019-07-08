@@ -98,12 +98,6 @@ header p {
 .icone:hover {
   background-color: rgb(62, 62, 62);
 }
-.jpg:hover {
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-}
-
 .travis {
   display: flex;
   align-items: center;
@@ -205,9 +199,16 @@ aside {
   justify-content: center;
   width: 100%;
 }
-.imagens {
-  justify-content: space-around;
+.fotos img:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8); 
+  filter: opacity(30%);
 }
+.fotos a:hover{
+  background-color:#2cbf60;
+}
+ 
 .txt2 {
   grid-area: txt2;
   background-color: white;
@@ -277,9 +278,8 @@ ul {
 
 .video p {
   padding: 20px;
-  font-family: 'robuto' 
+  font-family: 'robuto';
 }
-
 .narutoxsasuke {
   display: flex;
   justify-content: center;
@@ -289,8 +289,6 @@ ul {
   border-radius: 500px;
   
 } 
-
-
 .getnotified {
   height: 0;
 }
@@ -307,7 +305,7 @@ ul {
 }
 
 button {
-  background-color: lightgreen;
+  background-color: #2cbf60;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
   padding-top: 12px;
@@ -315,9 +313,7 @@ button {
   padding-left: 20px;
   padding-right: 40px;
   color: white;
-  font-weight: bolder;
-  
-  
+  font-weight: bolder;  
 }
 
 .cadastro {
